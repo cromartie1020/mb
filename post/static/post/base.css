@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+    font-family:'Source Sams Pro', sans-serif;
+    font-size:18px;
+}
+
+header,  h1, a  {
+    color: red;
+    text-decoration: none;
+}
+
+.post-entry {
+    margin-bottom: 2rem;
+}
+
+.post-entry p {
+    margin: 0;
+    font-weight: 400;
+}
+
+
