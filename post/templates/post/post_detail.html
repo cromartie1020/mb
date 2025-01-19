@@ -3,5 +3,25 @@
 {% endblock %}
 
 {% block content %}
-  {{ post.title }}
+  <div>
+  <h2>
+    {{ post.title }}
+  </h2>
+  <p>
+    {{ post.body }}
+  </p>
+  
+    
+  </div>  
+  <p>
+    <a href= "{% url 'edit' post.id %}">
+       Update
+    </a>  
+  </p>
+  <p>  
+    <a href ="{% url 'delete' post.id %}">
+       delete
+    </a>
+  </p>
+    
 {% endblock %}
